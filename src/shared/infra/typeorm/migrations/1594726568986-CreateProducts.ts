@@ -23,6 +23,10 @@ export default class CreateProducts1594726568986 implements MigrationInterface {
             type: 'numeric(15,4)',
           },
           {
+            name: 'quantity',
+            type: 'integer',
+          },
+          {
             name: 'created_at',
             type: 'timestamp',
             default: 'now()',
