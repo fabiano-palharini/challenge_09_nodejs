@@ -31,7 +31,7 @@ export default class CreateOrdersProducts1595244729000
           },
           {
             name: 'price',
-            type: 'numeric(15,4)',
+            type: 'numeric(15,2)',
             isNullable: false,
           },
           {
